@@ -1,0 +1,79 @@
+[
+  {
+    "name": "test_init_default",
+    "function": "test_init_default",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_init_valid",
+    "function": "test_init_valid",
+    "timeout": 10,
+    "points": 2
+  },
+  {
+    "name": "test_init_too_low",
+    "function": "test_init_too_low",
+    "timeout": 10,
+    "points": 2
+  },
+  {
+    "name": "test_init_too_high",
+    "function": "test_init_too_high",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_set_fuel",
+    "function": "test_set_fuel",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_set_fuel_illegal",
+    "function": "test_set_fuel_illegal",
+    "timeout": 10,
+    "points": 2
+  },
+  {
+    "name": "test_light",
+    "function": "test_light",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_light_twice",
+    "function": "test_light_twice",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_burn_start",
+    "function": "test_burn_start",
+    "timeout": 10,
+    "points": 0
+  },
+  {
+    "name": "test_extinguish",
+    "function": "test_extinguish",
+    "timeout": 10,
+    "points": 2
+  },
+  {
+    "name": "test_extinguish_without_burn",
+    "function": "test_extinguish_without_burn",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_time_left",
+    "function": "test_time_left",
+    "timeout": 10,
+    "points": 1
+  },{
+    "name": "test_burn_time",
+    "function": "test_burn_time",
+    "timeout": 10,
+    "points": 0
+  }
+]

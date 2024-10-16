@@ -1,0 +1,21 @@
+name: Workflow for BZZ Programming Lessons using Github-Classroom and Moodle
+
+on: [push, fork]
+
+permissions:
+  checks: write
+  issues: write
+  actions: read
+  contents: read
+
+jobs:
+  copyfiles:
+    permissions: write-all
+    if: ${{ (!contains(github.actor, 'classroom')) && (!contains(github.repository_owner, 'python')) }}
+    uses: BZZ-Commons/set-testdata/.github/workflows/copyfiles.yml@master
+    secrets: inherit
+
+  grading:
+    if: ${{ !contains(github.actor, 'classroom') }}
+    uses: BZZ-Commons/pygrader/.github/workflows/py_autograding.yml@main
+    secrets: inherit
