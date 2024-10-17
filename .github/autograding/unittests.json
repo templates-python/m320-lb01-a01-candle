@@ -24,14 +24,14 @@
     "points": 1
   },
   {
-    "name": "test_set_fuel",
-    "function": "test_set_fuel",
+    "name": "test_set_length",
+    "function": "test_set_length",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "test_set_fuel_illegal",
-    "function": "test_set_fuel_illegal",
+    "name": "test_set_length_illegal",
+    "function": "test_set_length_illegal",
     "timeout": 10,
     "points": 2
   },
@@ -48,8 +48,8 @@
     "points": 1
   },
   {
-    "name": "test_burn_start",
-    "function": "test_burn_start",
+    "name": "test_start_burn",
+    "function": "test_start_burn",
     "timeout": 10,
     "points": 0
   },
