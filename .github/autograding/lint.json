@@ -1,5 +1,5 @@
 {
-  "files": ["lantern.py", "fuelerror.py"],
+  "files": ["candle.py", "sizeerror.py"],
   "ignore" : [],
   "max": 3
 }
