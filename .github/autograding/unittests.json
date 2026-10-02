@@ -70,7 +70,8 @@
     "function": "test_time_left",
     "timeout": 10,
     "points": 1
-  },{
+  },
+  {
     "name": "test_burn_time",
     "function": "test_burn_time",
     "timeout": 10,
